@@ -7,10 +7,13 @@ Made by: Douglas Vinicio, Ian Laporte, German Acevedo and Shijun Wang
 /* ==========================================================================
     General Section / Body 
    ========================================================================== */
+.container {
+    max-width: 800px;
+}
 
 /* Fonts and Colors */ 
 
-.navbar-brand, h1 {
+.navbar-brand, h1, h2{
     font-family: Bubblegum Sans;
     font-size: 30px;
     color: #D96704 !important;
@@ -58,5 +61,7 @@ Header / NavBar */
   }
   @media (min-width: 768px)
 {
-    
+    .navbar {
+        padding: 0% 15% 0% 15%;
+    }
 }
