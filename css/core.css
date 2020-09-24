@@ -48,7 +48,7 @@ Header / NavBar */
 /* ==========================================================================
     Responsive Configurations 
    ========================================================================== */
-@media(max-width:500px){
+@media(max-width:580px){
     .navbar-brand, h1, h2{
         font-size: 20px;
     }
@@ -56,6 +56,12 @@ Header / NavBar */
     .logo-navbar {
         margin-right: 20px;
         margin-bottom: 0px;
+    }
+
+    #social-media-icon {
+        margin-bottom: 10px;
+        width: 40px !important;
+        height: auto;
     }
 
   }
