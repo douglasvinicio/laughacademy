@@ -70,6 +70,14 @@ Header / NavBar */
     .navbar {
         padding: 0% 15% 0% 15%;
     }
+
+    
 }
 
+/* Especial rule for line between @Copyright */
+@media (min-width:576px){
+    #copyright-divider{
+        display: none;
+    }
+}
 
