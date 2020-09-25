@@ -18,6 +18,11 @@ body {
     width: 350px;
 }
 
+#social-media-icon {
+    margin-bottom: 10px;
+    width: 60px !important;
+    height: auto;
+}
 
 .title {
     margin: 10px, auto;
@@ -39,6 +44,10 @@ h6 {
 
 .org-color {
     color: #D96704;
+}
+
+footer {
+    background-color: transparent;
 }
 
 
@@ -69,17 +78,10 @@ h6 {
 
     }
 
-    #footer p {
-        
-        font-size: 0.8em;
-
+    #social-media-icon {
+        margin-bottom: 10px;
+        width: 40px !important;
+        height: auto;
     }
-
-    #footer h5 {
-
-        font-size: 0.9em;
-    }
-
-
     
 }
