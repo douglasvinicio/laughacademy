@@ -13,9 +13,8 @@ Made by: Douglas Vinicio, Ian Laporte, German Acevedo and Shijun Wang
 
 /* Fonts and Colors */ 
 
-.navbar-brand, h1, h2{
+.navbar-brand, h1, h2, h3, h4{
     font-family: Bubblegum Sans;
-    font-size: 30px;
     color: #D96704 !important;
 }
 

@@ -22,3 +22,8 @@ font-family: 'Mulish', sans-serif;
     width: 60px;
     height: auto;
 }
+
+p{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px;
+}
