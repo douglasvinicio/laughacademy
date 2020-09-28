@@ -1,4 +1,6 @@
-
+/* ==========================================================================
+    Upcomming classes page
+   ========================================================================== */
 #container-upcomming {
     background-color: white;
     border: 2px solid #2458bf;
@@ -16,6 +18,18 @@
 }
 
 #social-media-icon {
+    margin-bottom: 10px;
+    width: 60px !important;
+    height: auto;
+}
+
+#social-media-icon2 {
+    margin-bottom: 10px;
+    width: 60px !important;
+    height: auto;
+}
+
+#social-media-icon3 {
     margin-bottom: 10px;
     width: 60px !important;
     height: auto;
@@ -48,8 +62,39 @@ footer {
 }
 
 
+/* ==========================================================================
+    form container
+   ========================================================================== */
+#Container-form {
+    width: 700px;
+}
+
+#Container-form img {
+    width: 200px;
+}
+
+#Container-form h3 {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+
+
+
+.btn-background{
+    background-color: #2458bf;
+}
+
+/* ==========================================================================
+    Responsive
+   ========================================================================== */
 
 @media(max-width:576px) {
+
+
+    /* ==========================================================================
+    Upcomming page
+   ========================================================================== */
     body {
         background-color: transparent;
     }
@@ -80,5 +125,39 @@ footer {
         width: 40px !important;
         height: auto;
     }
-    
+
+    #social-media-icon2 {
+        margin-bottom: 10px;
+        width: 40px !important;
+        height: auto;
+    }
+
+    #social-media-icon3 {
+        margin-bottom: 10px;
+        width: 40px !important;
+        height: auto;
+    }
+
+    /* ==========================================================================
+    SignUp page
+   ========================================================================== */
+   #Container-form {
+    width: auto;
+}
+
+#Container-form img {
+    width: 150px;
+}
+
+#container-form h3 {
+    font-size: 1.1em;
+
+}
+
+#container-form p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
 }
