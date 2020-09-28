@@ -57,7 +57,7 @@ Header / NavBar */
         margin-bottom: 0px;
     }
 
-    #social-media-icon {
+    .social-media-icon {
         margin-bottom: 10px;
         width: 40px !important;
         height: auto;
@@ -75,7 +75,7 @@ Header / NavBar */
 
 /* Especial rule for line between @Copyright */
 @media (min-width:576px){
-    #copyright-divider{
+    .copyright-divider{
         display: none;
     }
 }
