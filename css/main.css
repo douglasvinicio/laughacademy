@@ -103,5 +103,8 @@ font-family: 'Josefin Sans', sans-serif
     text-decoration: none;
     border: 3px solid #D96704;
 }
-
+.value ul {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
 
