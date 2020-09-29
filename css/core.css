@@ -5,19 +5,30 @@ Made by: Douglas Vinicio, Ian Laporte, German Acevedo and Shijun Wang
 */
 
 /* ==========================================================================
-    General Section / Body 
+    General Section / Header - Body - Footer
    ========================================================================== */
 .container {
     max-width: 800px;
 }
 
-/* Fonts and Colors */ 
+/*  Fonts and Colors */ 
+p, small{
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
 
 .navbar-brand, h1, h2, h3, h4{
     font-family: Bubblegum Sans;
     color: #D96704 !important;
+    text-align: center;
 }
 
+/*  Navbar */ 
 #navbarText, .nav-link, .btn-outline-primary {
     font-family: Mulish;
     color: #D96704 !important;
@@ -27,14 +38,6 @@ Made by: Douglas Vinicio, Ian Laporte, German Acevedo and Shijun Wang
 .btn-outline-primary:hover {
     background-color: white;
 }
-
-/* Aligning Titles to center*/
-h1, h2, h3, h4, p {
-    text-align: center;
-}
-
-/* ==========================================================================
-Header / NavBar */
 
 /* Resizing Logo in Navbar */ 
 .logo-navbar {
@@ -47,7 +50,7 @@ Header / NavBar */
 /* ==========================================================================
     Responsive Configurations 
    ========================================================================== */
-@media(max-width:580px){
+   @media(max-width:580px){
     .navbar-brand, h1, h2{
         font-size: 20px;
     }
@@ -64,13 +67,10 @@ Header / NavBar */
     }
 
   }
-  @media (min-width: 768px)
-{
+  @media (min-width: 768px){
     .navbar {
         padding: 0% 10% 0% 10%;
     }
-
-    
 }
 
 /* Especial rule for line between @Copyright */
@@ -79,4 +79,5 @@ Header / NavBar */
         display: none;
     }
 }
+
 

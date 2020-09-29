@@ -29,8 +29,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <!-- JavaScript / jQuery -->
     <script src="js/text.js"></script>
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="img/assets/logo-no-text.png">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/assets/logo-no-text.png">
     <!-- Title -->
     <title>Contact Us - Drop us a line and we'll answer you shortly! </title>
 </head>
@@ -68,7 +68,8 @@
                 </ul>
                 <!-- Call us section  -->
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-outline-primary">
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                        data-target="#exampleModal">
                         Call us
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-forward"
                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -119,7 +120,7 @@
                     <hr>
                     <div class="form-group text-center">
                         <div class="input-group mb-2 ">
-                            <input type="text" class="form-control " id="inlineFormInputGroup" placeholder="Email" >
+                            <input type="text" class="form-control " id="inlineFormInputGroup" placeholder="Email">
                         </div>
                         <button type="submit" class="btn btn-primary mb-2 ">Submit</button>
                     </div>
@@ -144,6 +145,27 @@
             <div class="col-sm">
                 <a href=""> FAQ</a> <br>
                 <a href="">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal with the phone number / Called from the navbar  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Here's our phone number:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    +1 555 - 333 - 1235
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Call</button>
+                </div>
             </div>
         </div>
     </div>
