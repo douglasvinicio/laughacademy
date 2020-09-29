@@ -23,7 +23,7 @@ font-family: 'Mulish', sans-serif;
     height: auto;
 }
 
-p{
+p, small{
     font-family: 'Josefin Sans', sans-serif !important;
     font-size: 20px;
 }

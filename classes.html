@@ -51,8 +51,8 @@
                         <a class="nav-link" href="#">Team</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="classes.html">Classes</a>
-                        </li>
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="our-mission.html">Our Mission</a>
                     </li>
@@ -62,7 +62,7 @@
                 </ul>
                 <!-- Call us section  -->
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-outline-primary">
+                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">
                         Call us
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-forward"
                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -175,8 +175,26 @@
         </footer>
 
     </div>
+    <!-- Modal with the phone number / Called from the navbar  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Here's our phone number:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    +1 555 - 333 - 1235
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Call</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-
-
 
 </html>
